@@ -1,0 +1,48 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.klikmobile",
+      "sha256_cert_fingerprints": ["33:99:8C:C1:25:86:9A:61:5A:F0:4B:12:C7:67:BD:9F:51:52:5F:F4:18:25:5D:2B:E2:56:80:74:09:88:D6:2B"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.klikmobile",
+      "sha256_cert_fingerprints": ["33:99:8C:C1:25:86:9A:61:5A:F0:4B:12:C7:67:BD:9F:51:52:5F:F4:18:25:5D:2B:E2:56:80:74:09:88:D6:2B"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.klikmobile",
+      "sha256_cert_fingerprints": ["D5:E7:02:4F:D6:79:25:2B:E2:70:75:5D:36:60:14:F6:1C:3D:FB:4E:77:6E:5D:2E:CB:EF:FB:C0:B8:88:B7:99"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.klikmobile",
+      "sha256_cert_fingerprints": ["D5:E7:02:4F:D6:79:25:2B:E2:70:75:5D:36:60:14:F6:1C:3D:FB:4E:77:6E:5D:2E:CB:EF:FB:C0:B8:88:B7:99"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://klik.cool"
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://saltapp.io"
+    }
+  }
+]
