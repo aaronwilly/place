@@ -3,13 +3,7 @@ import { getApp, getApps, initializeApp } from 'firebase/app';
 import { getMessaging, getToken } from 'firebase/messaging';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCs1nBgzASWiyrlha0N1W0Uj8l1iEX6GdY',
-  authDomain: 'klikmobile-b0c63.firebaseapp.com',
-  projectId: 'klikmobile-b0c63',
-  storageBucket: 'klikmobile-b0c63.appspot.com',
-  messagingSenderId: '345427815821',
-  appId: '1:345427815821:web:4ea664bb25d4b012c921c4',
-  measurementId: 'G-TSK7E5282R'
+
 };
 
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
