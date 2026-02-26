@@ -25,7 +25,7 @@ const firebaseCloudMessaging = {
       const messaging = getMessaging(app);
       await Notification.requestPermission();
       getToken(messaging, {
-        vapidKey: 'BJ4uxsi0vlg0TzQ4zhZkZzhuAkFA3u8zjdBKF5_35qtBqBRPj4WDsJMe33oqWsBL5ypLrgMC5UxNFACbnZNNAHs',
+        vapidKey: '',
       })
         .then((currentToken) => {
           if (currentToken) {
